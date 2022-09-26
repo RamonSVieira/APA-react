@@ -1,0 +1,42 @@
+.menu {
+  display: block;
+
+  cursor: pointer;
+  position: relative;
+}
+
+span {
+  display: block;
+  background-color: #fff;
+  width: 36px;
+  height: 4px;
+}
+
+.menu span:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+/* menu1 */
+.menu1 span {
+  transition: all 0.3s ease-in-out;
+  transform-origin: right;
+}
+
+.menu1 span {
+  transform-origin: right;
+}
+.menu1.active span:first-child {
+  transform: rotate(-43deg);
+}
+.menu1.active span:nth-child(2) {
+  opacity: 0;
+}
+.menu1.active span:last-child {
+  transform: rotate(43deg);
+}
+
+@media (min-width: 1024px) {
+  .menu {
+    display: none;
+  }
+}
