@@ -1,32 +1,30 @@
-import "./hamburger.css";
+import { useState } from "react";
 
 export function Hamburger() {
-  function showMenu() {
-    const menu = document.querySelector(".menu.menu1");
-    const body = document.querySelector("body");
-
-    menu?.addEventListener("click", clickOnHamburguer);
-
-    function clickOnHamburguer() {
-      body?.classList.toggle("menu-expanded");
-    }
-
-    menu?.addEventListener("click", () => {
-      if (menu.classList.contains("active")) {
-        menu.classList.remove("active");
-        console.log("adicionando classe ativo");
-      } else {
-        menu.classList.add("active");
-        console.log("removendo classe ativo");
-      }
-    });
-  }
+  const [open, setOpen] = useState(false);
 
   return (
-    <div className="menu menu1" onClick={showMenu}>
-      <span></span>
-      <span></span>
-      <span></span>
+    <div
+      onClick={() => {
+        setOpen(!open);
+      }}
+      className="block cursor-pointer relative lg:hidden"
+    >
+      <span
+        className={`block bg-white w-9 h-1 mb-2 transition-all duration-300 origin-right ${
+          open ? "-rotate-43" : null
+        } `}
+      ></span>
+      <span
+        className={`block bg-white w-9 h-1 mb-2 transition-all duration-300 origin-right ${
+          open ? "opacity-0" : null
+        } `}
+      ></span>
+      <span
+        className={`block bg-white w-9 h-1 transition-all duration-300 origin-right ${
+          open ? "rotate-43" : null
+        } `}
+      ></span>
     </div>
   );
 }

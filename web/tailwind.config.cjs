@@ -11,6 +11,9 @@ module.exports = {
       transitionProperty: {
         width: "width",
       },
+      rotate: {
+        43: "43deg",
+      },
     },
   },
   plugins: [],

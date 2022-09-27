@@ -1,7 +1,6 @@
-import { Button } from "./Button";
 import logo from "../../assets/images/APA8VERDE-logo.svg";
 
-import "./header.css";
+import { Button } from "../Button";
 import { Hamburger } from "./Hamburger";
 
 export function Header() {
@@ -14,13 +13,13 @@ export function Header() {
 
         <nav>
           <ul className="hidden lg:flex gap-8 flex-wrap items-center justify-center text-white text-xl font-medium">
-            <li className="">
+            <li className="hover:text-[#82E5B3]">
               <a href="">Sobre</a>
             </li>
-            <li className="">
+            <li className="hover:text-[#82E5B3]">
               <a href="">Conquistas</a>
             </li>
-            <li className="">
+            <li className="hover:text-[#82E5B3]">
               <a href="">Mudas</a>
             </li>
           </ul>
