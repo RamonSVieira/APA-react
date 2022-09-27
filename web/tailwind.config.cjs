@@ -14,6 +14,9 @@ module.exports = {
       rotate: {
         43: "43deg",
       },
+      fontFamily: {
+        primary: ["Roboto"],
+      },
     },
   },
   plugins: [],
