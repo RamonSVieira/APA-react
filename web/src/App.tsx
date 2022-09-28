@@ -5,7 +5,7 @@ import { Objetivos } from "./components/Objetivos";
 import "./styles/main.css";
 
 function App() {
-  window.addEventListener("resize", () => {
+  function addPaddingObjetivos() {
     const contentMain = document.querySelector(".conteudo-main")?.clientHeight;
 
     const objetivos = Array.from(
@@ -22,6 +22,14 @@ function App() {
         box.style.paddingTop = `${heightContentMainByTwo}px`;
       });
     }
+  }
+
+  window.addEventListener("resize", () => {
+    addPaddingObjetivos();
+  });
+
+  window.addEventListener("load", () => {
+    addPaddingObjetivos();
   });
 
   return (
