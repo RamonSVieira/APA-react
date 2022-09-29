@@ -8,7 +8,7 @@ export function Main() {
       </div>
 
       <div className="conteudo-main py-16 px-8 mx-8 bg-[#82E5B3] rounded-2xl absolute bottom-0 translate-y-1/2">
-        <h1 className="flex justify-center text-center py-8 text-3xl sm:text-4xl font-bold text-[#1a1a1a] before:content[''] before:w-20 before:h-20 before:rounded-full before:bg-[#0d894a] before:absolute before:top-0 before:-translate-y-1/2">
+        <h1 className="flex justify-center text-center py-8 text-3xl sm:text-4xl xl:text-5xl font-bold text-[#1a1a1a] before:content[''] before:w-20 before:h-20 before:rounded-full before:bg-[#0d894a] before:absolute before:top-0 before:-translate-y-1/2">
           Projeto 8 Verde
         </h1>
 

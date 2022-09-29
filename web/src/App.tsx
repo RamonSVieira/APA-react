@@ -5,7 +5,7 @@ import { Objetivos } from "./components/Objetivos";
 import "./styles/main.css";
 
 function App() {
-  function addPaddingObjetivos() {
+  function addPaddObgSection() {
     const contentMain = document.querySelector(".conteudo-main")?.clientHeight;
 
     const objetivos = Array.from(
@@ -16,20 +16,19 @@ function App() {
 
     if (contentMain) {
       const heightContentMainByTwo = contentMain / 2;
-      console.log(heightContentMainByTwo);
 
       objetivos.forEach((box) => {
-        box.style.paddingTop = `${heightContentMainByTwo}px`;
+        box.style.paddingTop = `${heightContentMainByTwo + 36}px`;
       });
     }
   }
 
   window.addEventListener("resize", () => {
-    addPaddingObjetivos();
+    addPaddObgSection();
   });
 
   window.addEventListener("load", () => {
-    addPaddingObjetivos();
+    addPaddObgSection();
   });
 
   return (
