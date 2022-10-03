@@ -5,7 +5,7 @@ import { Hamburger } from "./Hamburger";
 
 export function Header() {
   return (
-    <header className="bg-dark-green w-full fixed z-50 shadow-2xl">
+    <header className="bg-dark-green w-full fixed z-50 shadow-[0_0px_50px_rgba(0,0,0,0.5)]">
       <div className="max-w-7xl flex justify-around items-center flex-wrap mx-auto py-6">
         <a href="">
           <img src={logo} alt="" />
