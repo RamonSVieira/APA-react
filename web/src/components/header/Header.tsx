@@ -1,6 +1,6 @@
 import logo from "../../assets/images/APA8VERDE-logo.svg";
 
-import { Button } from "../Button";
+import { Button } from "../utilities/Button.tsx";
 import { Hamburger } from "./Hamburger";
 
 export function Header() {

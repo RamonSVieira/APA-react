@@ -6,9 +6,9 @@ export function Objetivos() {
   return (
     <div className="section-objetivos bg-[#4ac687] py-16">
       <div className="max-w-7xl mx-auto px-6">
-        <h1 className="text-3xl sm:text-4xl xl:text-5xl text-center font-bold mb-8">
+        <h2 className="text-3xl sm:text-4xl xl:text-5xl text-center font-bold mb-8">
           Principais Objetivos
-        </h1>
+        </h2>
 
         <div className="flex flex-wrap justify-center gap-8">
           <div className="max-w-sm flex flex-col items-center gap-7 p-8 bg-[#b6f9d7] rounded-2xl">
