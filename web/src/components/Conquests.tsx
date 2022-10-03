@@ -4,7 +4,7 @@ import imgConquest from "../assets/images/img-conquests.svg";
 export function Conquests() {
   return (
     <div className="bg-[#c5f4dc]">
-      <div className="max-w-7xl mx-auto px-6 py-16 grid md:grid-cols-2 gap-10 relative">
+      <div className="max-w-7xl mx-auto px-6 py-16 grid md:grid-cols-2 gap-10 items-center relative">
         <div>
           <h2 className="text-3xl sm:text-4xl xl:text-5xl text-[#1a1a1a] text-center font-bold mb-8">
             Conquistas
