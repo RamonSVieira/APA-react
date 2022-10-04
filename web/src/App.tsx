@@ -1,3 +1,4 @@
+import { Formulario } from "./components/Formulario";
 import { Header } from "./components/header/Header";
 import { Main } from "./components/Main";
 import { Objetivos } from "./components/Objetivos";
@@ -38,6 +39,8 @@ function App() {
       <Main />
 
       <Objetivos />
+
+      <Formulario />
     </div>
   );
 }

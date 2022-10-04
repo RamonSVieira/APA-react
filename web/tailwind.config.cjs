@@ -17,6 +17,9 @@ module.exports = {
       fontFamily: {
         primary: ["Roboto"],
       },
+      gridTemplateColumns: {
+       gridFormulario: "gridTemplateColumns 5fr 7fr"
+      }
     },
   },
   plugins: [],
