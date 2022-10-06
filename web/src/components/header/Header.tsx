@@ -9,10 +9,14 @@ export function Header() {
 
   return (
     <div>
-      <header className={`bg-dark-green w-full fixed z-50 m-0`}>
+      <header
+        className={`bg-dark-green w-full fixed z-50 m-0  ${
+          open ? null : "shadow-[0_0px_65px_rgba(0,0,0,0.7)]"
+        }`}
+      >
         <div
           className={`max-w-7xl flex justify-around items-center flex-wrap mx-auto py-6
-          ${open ? null : "shadow-[0_0px_65px_rgba(0,0,0,0.7)]"}`}
+          `}
         >
           <a href="">
             <img src={logo} alt="" />

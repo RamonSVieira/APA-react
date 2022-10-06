@@ -7,10 +7,9 @@ module.exports = {
         "dark-green": "#004723",
         button: "#f76e11",
         "button-hover": "#df4646",
-        
       },
       textColor: {
-        "text-p": "#404040"
+        "text-p": "#404040",
       },
       transitionProperty: {
         width: "width",
@@ -23,7 +22,6 @@ module.exports = {
       },
       gridTemplateColumns: {
 
-       gridFormulario: "5fr 7fr",
        conquests: "56px auto",
       },
       maxHeight: {
@@ -31,13 +29,10 @@ module.exports = {
       }
 
         
-      },
-    
- 
-    },
-    
- plugins: [],
-};
+     
 
- 
- 
+    },
+  },
+
+  plugins: [],
+};
