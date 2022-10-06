@@ -7,6 +7,10 @@ module.exports = {
         "dark-green": "#004723",
         button: "#f76e11",
         "button-hover": "#df4646",
+        
+      },
+      textColor: {
+        "text-p": "#404040"
       },
       transitionProperty: {
         width: "width",
@@ -18,9 +22,19 @@ module.exports = {
         primary: ["Roboto"],
       },
       gridTemplateColumns: {
-       gridFormulario: "gridTemplateColumns 5fr 7fr"
-      }
+
+       gridFormulario: "grid-template-columns 5fr 7fr",
+       conquests: "56px auto",
+      },
+
+        
+      },
+    
+ 
     },
-  },
-  plugins: [],
+    
+ plugins: [],
 };
+
+ 
+ 
