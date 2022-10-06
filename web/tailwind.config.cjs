@@ -19,6 +19,7 @@ module.exports = {
       },
       gridTemplateColumns: {
         conquests: "56px auto",
+        gridFormulario: "5fr 7fr",
       },
     },
   },
