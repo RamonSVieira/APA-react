@@ -8,6 +8,9 @@ module.exports = {
         button: "#f76e11",
         "button-hover": "#df4646",
       },
+      textColor: {
+        "text-p": "#404040",
+      },
       transitionProperty: {
         width: "width",
       },
@@ -23,5 +26,6 @@ module.exports = {
       },
     },
   },
+
   plugins: [],
 };

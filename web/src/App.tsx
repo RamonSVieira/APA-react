@@ -1,4 +1,9 @@
+
+
+import { Formulario } from "./components/Formulario";
+
 import { Conquests } from "./components/Conquests";
+
 import { Header } from "./components/header/Header";
 import { Main } from "./components/Main";
 import { Objetivos } from "./components/Objetivos";
@@ -40,9 +45,14 @@ function App() {
 
       <Objetivos />
 
+
       <Conquests />
+
+      
+      <Formulario />
+
     </div>
   );
-}
+};
 
 export default App;
