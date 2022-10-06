@@ -21,7 +21,7 @@ module.exports = {
         primary: ["Roboto"],
       },
       gridTemplateColumns: {
-
+        gridFormulario: "5fr 7fr",
        conquests: "56px auto",
       },
       maxHeight: {
