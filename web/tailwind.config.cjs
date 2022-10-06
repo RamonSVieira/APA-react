@@ -23,9 +23,12 @@ module.exports = {
       },
       gridTemplateColumns: {
 
-       gridFormulario: "grid-template-columns 5fr 7fr",
+       gridFormulario: "5fr 7fr",
        conquests: "56px auto",
       },
+      maxHeight: {
+        sectionHeader: "calc(100vh - 100px)"
+      }
 
         
       },
