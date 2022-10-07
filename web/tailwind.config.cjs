@@ -7,6 +7,7 @@ module.exports = {
         "dark-green": "#004723",
         button: "#f76e11",
         "button-hover": "#df4646",
+        bgContact: "#2dbb73",
       },
       textColor: {
         "text-p": "#404040",
@@ -26,7 +27,7 @@ module.exports = {
       },
       maxHeight: {
         sectionHeader: "calc(100vh - 100px)"
-      }
+      },
 
         
      

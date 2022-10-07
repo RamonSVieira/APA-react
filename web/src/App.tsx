@@ -7,6 +7,8 @@ import { Conquests } from "./components/Conquests";
 import { Header } from "./components/header/Header";
 import { Main } from "./components/Main";
 import { Objetivos } from "./components/Objetivos";
+import { Contact } from "./components/Contact";
+
 
 import "./styles/main.css";
 
@@ -50,6 +52,8 @@ function App() {
 
       
       <Formulario />
+
+      <Contact />
 
     </div>
   );
