@@ -23,9 +23,8 @@ export function Formulario() {
             importancia de cuidar da natureza e do nosso planeta terra.
           </p>
 
-          <form className=" max-w-lg w-full  mx-[200px]" action="">
-            <div className="flex flex-col gap-6 py-10">
-              <div className="flex flex-col" id="nome">
+          <form className="flex items-stretch flex-col gap-5 w-3/5  m-auto" action="">
+              <div className="w-full flex flex-col" id="nome">
                 <label className="mb-2 text-lg text-[#404040]" htmlFor="nome">
                   Nome
                 </label>
@@ -106,7 +105,7 @@ export function Formulario() {
               </div>
 
               <Button title="Enviar" />
-            </div>
+            
           </form>
         </div>
       </div>
