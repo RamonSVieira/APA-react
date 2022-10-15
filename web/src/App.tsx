@@ -1,5 +1,3 @@
-
-
 import { Formulario } from "./components/Formulario";
 
 import { Conquests } from "./components/Conquests";
@@ -9,8 +7,8 @@ import { Main } from "./components/Main";
 import { Objetivos } from "./components/Objetivos";
 import { Contact } from "./components/Contact";
 
-
 import "./styles/main.css";
+import { Adopt } from "./components/Adopt";
 
 function App() {
   function addPaddObgSection() {
@@ -47,16 +45,15 @@ function App() {
 
       <Objetivos />
 
-
       <Conquests />
 
-      
-      <Formulario />
+      {/* <Formulario /> */}
 
-      <Contact />
+      <Adopt />
 
+      {/* <Contact /> */}
     </div>
   );
-};
+}
 
 export default App;
