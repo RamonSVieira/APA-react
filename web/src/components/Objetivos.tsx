@@ -10,7 +10,7 @@ export function Objetivos() {
           Principais Objetivos
         </h2>
 
-        <div className="flex flex-wrap justify-center gap-8">
+        <div className="flex flex-wrap justify-center gap-10">
           <div className="max-w-sm flex flex-col items-center gap-7 p-8 bg-[#b6f9d7] rounded-2xl">
             <div className="bg-[#06743c] rounded-full p-8">
               <img src={recovery} alt="" className="w-28" />

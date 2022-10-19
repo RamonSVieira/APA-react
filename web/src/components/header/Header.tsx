@@ -10,12 +10,12 @@ export function Header() {
   return (
     <div>
       <header
-        className={`bg-dark-green w-full fixed z-50 m-0  ${
+        className={`bg-dark-green w-full fixed z-50 ${
           open ? null : "shadow-[0_0px_65px_rgba(0,0,0,0.7)]"
         }`}
       >
         <div
-          className={`max-w-7xl flex justify-around items-center flex-wrap mx-auto py-6
+          className={`max-w-7xl flex items-center justify-between flex-wrap py-6 px-6
           `}
         >
           <a href="">
@@ -41,6 +41,7 @@ export function Header() {
           </div>
 
           <div
+            className="lg:hidden"
             onClick={() => {
               setOpen(!open);
             }}
