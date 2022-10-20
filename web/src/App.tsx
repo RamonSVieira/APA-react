@@ -9,6 +9,7 @@ import { Contact } from "./components/Contact";
 
 import "./styles/main.css";
 import { Adopt } from "./components/Adopt";
+import { Partners } from "./components/Partners";
 
 function App() {
   function addPaddObgSection() {
@@ -50,6 +51,8 @@ function App() {
       {/* <Formulario /> */}
 
       <Adopt />
+
+      <Partners />
 
       {/* <Contact /> */}
     </div>
